@@ -4,6 +4,31 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Barber</title>
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="./img/slider/slider-img-2.png">
+        <meta property="og:title" content="Best barbershop in your city">
+        <meta property="og:description" content="We are experts in trendy men’s haircuts. We work quickly, carefully and with style.">
+        <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="prefetch prerender" href="./img/slider/slider-img-1.png">
+        <link rel="prefetch prerender" href="./img/slider/slider-img-2.png">
+        <link rel="prefetch prerender" href="./img/slider/slider-img-3.png">
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
 	<body>
@@ -20,28 +45,28 @@
         
                             <ul class="nav__nav-list nav-list">
                                 <li class="nav-list__item">
-                                    <a href="#!" class="nav-list__link">About</a>
+                                    <a href="#!" aria-label="about" class="nav-list__link">About</a>
                                 </li>
                                 <li class="nav-list__item">
-                                    <a href="#!" class="nav-list__link">Services and prices</a>
+                                    <a href="#!" aria-label="services and prices" class="nav-list__link">Services and prices</a>
                                 </li>
                                 <li class="nav-list__item">
-                                    <a href="#!" class="nav-list__link">Barbers</a>
+                                    <a href="#!" aria-label="barbers" class="nav-list__link">Barbers</a>
                                 </li>
                                 <li class="nav-list__item">
-                                    <a href="#!" class="nav-list__link">Contacts</a>
+                                    <a href="#!" aria-label="contacts" class="nav-list__link">Contacts</a>
                                 </li>
                             </ul>
                             <ul class="nav__nav-booking nav-booking">
                                 <div class="nav-booking__wrapper">
                                     <li class="nav-booking__tel"><a class="nav-booking__link" href="tel:+79441111111">+7 944 111 11 11</a></li>
-                                    <button class="nav-booking__dark-mode-btn dark-mode-btn">
+                                    <button aria-label="dark mode" class="nav-booking__dark-mode-btn dark-mode-btn">
                                         <svg class="dark-mode-btn__icon"><use href="./img/icons/sprite.svg#sun-svg"></use></svg>
                                         <svg class="dark-mode-btn__icon"><use href="./img/icons/sprite.svg#moon-svg"></use></svg>
                                     </button>
                                 </div>
                                 <li class="nav-booking__btn">
-                                    <a href="#info-form" role="button" class="btn-booking">ONLINE BOOKING</a>
+                                    <a href="#info-form" aria-label="online booking" role="button" class="btn-booking">ONLINE BOOKING</a>
                                 </li>
                             </ul>
                         </nav>
@@ -51,11 +76,11 @@
                                 <svg class="mobile-navbar__svg"><use href="./img/icons/sprite.svg#logo-svg"></use></svg>
                             </a>
                             <div class="mobile-navbar__wrapper">
-                                <button class="dark-mode-btn">
+                                <button aria-label="dark mode" class="dark-mode-btn">
                                     <svg class="dark-mode-btn__icon"><use href="./img/icons/sprite.svg#sun-svg"></use></svg>
                                     <svg class="dark-mode-btn__icon"><use href="./img/icons/sprite.svg#moon-svg"></use></svg>
                                 </button>
-                                <div class="mobile-navbar__hamburger-wrapper hamburger-wrapper">
+                                <div role="button" aria-label="sidebar" class="mobile-navbar__hamburger-wrapper hamburger-wrapper">
                                     <div class="hamburger"></div>
                                 </div>
                             </div>
@@ -67,10 +92,10 @@
                                 <div class="sidebar__line line"></div>
                             </div>
                             <div class="sidebar__item">
-                                <a class="sidebar__link" href="#!">Instagram</a>
+                                <a aria-label="instagram" class="sidebar__link" href="#!">Instagram</a>
                             </div>
                             <div class="sidebar__item">
-                                <a class="sidebar__link" href="#!">Youtube</a>
+                                <a aria-label="youtube" class="sidebar__link" href="#!">Youtube</a>
                             </div>
                         </div>
                         <div class="header__header-desc header-desc">
@@ -103,11 +128,11 @@
                           
                             <!-- If we need navigation buttons -->
                             <div class="swiper-btns">
-                                <div class="swiper-btns__prev">
+                                <div role="button" aria-label="previous image" class="swiper-btns__prev">
                                     <p>Back</p>
                                     <div class="swiper-btns__line"></div>
                                 </div>
-                                <div class="swiper-btns__next">
+                                <div role="button" aria-label="next image" class="swiper-btns__next">
                                     <p>Forward</p>
                                     <div class="swiper-btns__line"></div>
                                 </div>
@@ -122,10 +147,10 @@
                 <div class="container">
                     <div class="about-section__content">
                         <div class="about-section__about-photos">
-                            <img class="about-section__photo-1" src="./img/photos/img-1.png" alt="Photo">
-                            <img class="about-section__photo-2" src="./img/photos/img-2.png" alt="Photo">
-                            <img class="about-section__photo-1-desctop-small" src="./img/photos/img-1-small.png" alt="Photo">
-                            <img class="about-section__photo-2-desctop-small" src="./img/photos/img-2-small.png" alt="Photo">
+                            <img class="about-section__photo" src="./img/photos/img-1.png" alt="Photo">
+                            <img class="about-section__photo" src="./img/photos/img-2.png" alt="Photo">
+                            <img class="about-section__photo-small" src="./img/photos/img-1-small.png" alt="Photo">
+                            <img class="about-section__photo-small" src="./img/photos/img-2-small.png" alt="Photo">
                         </div>
                         <div class="about-section__about-desc about-desc">
                             <div class="about-desc__about line-wrapper">
@@ -136,7 +161,7 @@
                             <p class="about-desc__subtitle">If you want to add more confidence to your image,<br>you should definitely visit us.</p>
                             <p class="about-desc__desc">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
                             <div class="about-desc__booking">
-                                <a href="#info-form" role="button" class="btn-booking btn-booking--black">ONLINE BOOKING</a>
+                                <a href="#info-form" aria-label="online booking" role="button" class="btn-booking btn-booking--black">ONLINE BOOKING</a>
                             </div>
                         </div>
                     </div>
@@ -238,7 +263,7 @@
                                 <!-- second card -->
                             </div>
                             <div class="prices-section__booking">
-                                <a href="#info-form" role="button" class="btn-booking">ONLINE BOOKING</a>
+                                <a href="#info-form" aria-label="online booking" role="button" class="btn-booking">ONLINE BOOKING</a>
                             </div>
                         </div>
                     </div>
@@ -308,44 +333,44 @@
                         <div class="barbers-section__barbers-cards barbers-cards">
                             <!-- 1 card -->
                             <div class="barbers-cards__barber-card barber-card">
-                                <img src="./img/photos/barber1.png" alt="Photo" class="barber-card__img">
+                                <img loading="lazy" src="./img/photos/barber1.png" alt="Photo" class="barber-card__img">
                                 <div class="barber-card__desc">
                                     <p class="barber-card__name">John Smith</p>
                                     <p class="barber-card__post">Extreme Barber</p>
                                 </div>
                                 <div class="barber-card__social-links social-links">
-                                    <div class="social-links__item"><a class="social-links__link" href="#header"><svg class="social-links__img"><use href="./img/icons/sprite.svg#instagram-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#twitter-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#facebook-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#linkedin-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="instagram" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#instagram-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="twitter" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#twitter-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="facebook" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#facebook-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="linkedin" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#linkedin-svg"></use></svg></a></div>
                                 </div>
                             </div>
                             <!-- 2 card -->
                             <div class="barbers-cards__barber-card barber-card">
-                                <img src="./img/photos/barber2.png" alt="Photo" class="barber-card__img">
+                                <img loading="lazy" src="./img/photos/barber2.png" alt="Photo" class="barber-card__img">
                                 <div class="barber-card__desc">
                                     <p class="barber-card__name">Michele Doe</p>
                                     <p class="barber-card__post">Extreme Barber</p>
                                 </div>
                                 <div class="barber-card__social-links social-links">
-                                    <div class="social-links__item"><a class="social-links__link" href="#header"><svg class="social-links__img"><use href="./img/icons/sprite.svg#instagram-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#twitter-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#facebook-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#linkedin-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="instagram" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#instagram-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="twitter" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#twitter-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="facebook" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#facebook-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="linkedin" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#linkedin-svg"></use></svg></a></div>
                                 </div>
                             </div>
                             <!-- 3 card -->
                             <div class="barbers-cards__barber-card barber-card">
-                                <img src="./img/photos/barber3.png" alt="Photo" class="barber-card__img">
+                                <img loading="lazy" src="./img/photos/barber3.png" alt="Photo" class="barber-card__img">
                                 <div class="barber-card__desc">
                                     <p class="barber-card__name">Alan Black</p>
                                     <p class="barber-card__post">Extreme Barber</p>
                                 </div>
                                 <div class="barber-card__social-links social-links">
-                                    <div class="social-links__item"><a class="social-links__link" href="#header"><svg class="social-links__img"><use href="./img/icons/sprite.svg#instagram-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#twitter-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#facebook-svg"></use></svg></a></div>
-                                    <div class="social-links__item"><a class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#linkedin-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="instagram" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#instagram-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="twitter" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#twitter-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="facebook" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#facebook-svg"></use></svg></a></div>
+                                    <div class="social-links__item"><a aria-label="linkedin" class="social-links__link" href="#"><svg class="social-links__img"><use href="./img/icons/sprite.svg#linkedin-svg"></use></svg></a></div>
                                 </div>
                             </div> 
                         </div>
@@ -363,10 +388,10 @@
                             <p class="photo-section__text">In Latin, "barba" means "beard"</p>
                         </div>
                         <div class="photo-section__grid-photos">
-                            <img src="./img/photos/process2.png" alt="Photo">
-                            <img src="./img/photos/process1.png" alt="Photo">
-                            <img src="./img/photos/process3.png" alt="Photo">
-                            <img src="./img/photos/process4.png" alt="Photo">
+                            <img loading="lazy" src="./img/photos/process2.png" alt="Photo">
+                            <img loading="lazy" src="./img/photos/process1.png" alt="Photo">
+                            <img loading="lazy" src="./img/photos/process3.png" alt="Photo">
+                            <img loading="lazy" src="./img/photos/process4.png" alt="Photo">
                         </div>
                     </div>
                 </div>
@@ -381,7 +406,7 @@
                         <!-- info info-form -->
                         <div class="info-section__info-form" id="info-form">
                             <div class="info-form">
-                                <form class="info-form__form" action="" name="info-form">
+                                <form class="info-form__form" name="info-form">
                                     <h6 class="info-form__title">Online-booking</h6>
                                         <!-- Hidden Required Fields -->
                                         <input type="hidden" name="project_name" value="Barber">
@@ -414,7 +439,7 @@
                                             placeholder=""
                                             data-msg="Required field">
                                     </div>
-                                    <button id="info-form-submit-btn" class="info-form__submit-btn">SEND</button>
+                                    <button id="info-form-submit-btn" aria-label="form submit" class="info-form__submit-btn">SEND</button>
                                 </form>
                             </div>
                         </div>
@@ -466,10 +491,10 @@
                                 <div class="sidebar__line line"></div>
                             </div>
                             <div class="sidebar__item">
-                                <a class="sidebar__link" href="#!">Instagram</a>
+                                <a aria-label="instagram" class="sidebar__link" href="#!">Instagram</a>
                             </div>
                             <div class="sidebar__item">
-                                <a class="sidebar__link" href="#!">Youtube</a>
+                                <a aria-label="youtube" class="sidebar__link" href="#!">Youtube</a>
                             </div>
                         </div>
                     </div>
@@ -483,13 +508,13 @@
                 <div class="mobile-nav-wrapper__bg"></div>
                 <div class="mobile-nav-wrapper__content">
                     <ul class="mobile-nav__list">
-                        <li class="mobile-nav__list-item"><a href="#about-section" class="mobile-nav__link mobile-nav__do-close">About</a></li>
-                        <li class="mobile-nav__list-item"><a href="#prices-section" class="mobile-nav__link mobile-nav__do-close">Services and prices</a></li>
-                        <li class="mobile-nav__list-item"><a href="#barbers-section" class="mobile-nav__link mobile-nav__do-close">Barbers</a></li>
-                        <li class="mobile-nav__list-item"><a href="#info-contacts" class="mobile-nav__link mobile-nav__do-close">Contacts</a></li>
+                        <li class="mobile-nav__list-item"><a aria-label="about" href="#about-section" class="mobile-nav__link mobile-nav__do-close">About</a></li>
+                        <li class="mobile-nav__list-item"><a aria-label="services and prices" href="#prices-section" class="mobile-nav__link mobile-nav__do-close">Services and prices</a></li>
+                        <li class="mobile-nav__list-item"><a aria-label="barbers" href="#barbers-section" class="mobile-nav__link mobile-nav__do-close">Barbers</a></li>
+                        <li class="mobile-nav__list-item"><a aria-label="contacts" href="#info-contacts" class="mobile-nav__link mobile-nav__do-close">Contacts</a></li>
                         <li class="mobile-nav__tel"><a class="mobile-nav__link" href="tel:+79441111111">+7 944 111 11 11</a></li>
                         <div class="mobile-nav__booking">
-                            <a href="#info-form" role="button" class="btn-booking btn-booking--black mobile-nav__do-close">ONLINE BOOKING</a>
+                            <a href="#info-form" role="button" aria-label="online booking" class="btn-booking btn-booking--black mobile-nav__do-close">ONLINE BOOKING</a>
                         </div>
                     </ul>
 
@@ -504,7 +529,7 @@
                     <a href="#!" class="popup__close close-popup">✕</a>
                     <div class="popup__popup-wrapper popup-wrapper">
                         <p class="popup-wrapper__text">Your application has been successfully&nbsp;sent</p>
-                        <button class="popup-wrapper__close-btn">Close</button>
+                        <button aria-label="close popup" class="popup-wrapper__close-btn">Close</button>
                     </div>
                 </div>
             </div>
